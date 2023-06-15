@@ -16,3 +16,29 @@ Connect 4 game with Minimax AI implementation provides an engaging and challengi
 - Play:
 
 ![image](https://github.com/mshenoda/connect4/assets/2038150/5215275f-4a3b-452f-afcc-7d66d79488ef)
+
+
+
+## Required Packages
+- customtkinter
+- CTkMessagebox
+- tqdm
+
+
+### Install
+```
+pip3 install -r requirements.txt
+```
+
+## Directory Structure
+Place all the files in same directory as the following:
+```
+├─── plots/      contains plots   
+├─── game.py     contains Connect4Game represents the Connect 4 game  
+├─── player.py   contains MinimaxAlphaBetaPlayer: a player that uses the Minimax algorithm with alpha-beta pruning to make decisions in a Connect4Game
+├─── app.py      contains Connect4App: main application class for the Connect 4 game
+├─── evaluate.py contains evalation of ai players
+└─── run.py      main script to run the game
+```
+
+
