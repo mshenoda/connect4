@@ -20,7 +20,7 @@ Connect 4 game with Minimax AI implementation provides an engaging and challengi
 
 
 ## Required Packages
-- customtkinter
+- CustomTkinter
 - CTkMessagebox
 - tqdm
 
