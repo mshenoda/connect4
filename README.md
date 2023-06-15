@@ -7,14 +7,12 @@ Connect 4 game with Minimax AI implementation provides an engaging and challengi
 ![image](https://github.com/mshenoda/connect4/assets/2038150/c69840b1-2a49-4776-b325-bd87ff57420e)
 
 
-- Then choose player color: red or yellow:      
-  
-![image](https://github.com/mshenoda/connect4/assets/2038150/96255da1-c1c1-4e6d-9486-d7c9218756fc)
-![image](https://github.com/mshenoda/connect4/assets/2038150/a33263b2-140a-449e-aede-9ede3da57033)
+- Then choose player color: red or yellow:       
+![image](https://github.com/mshenoda/connect4/assets/2038150/410c5a89-0e0a-4f6d-855d-c42efbc66b02)
+![image](https://github.com/mshenoda/connect4/assets/2038150/6ac24ed1-a586-4085-8b54-c1389bb9f6b3)
 
 
 - Play:
-
 ![image](https://github.com/mshenoda/connect4/assets/2038150/5215275f-4a3b-452f-afcc-7d66d79488ef)
 
 
@@ -41,7 +39,7 @@ Place all the files in same directory as the following:
 └─── run.py      main script to run the game
 ```
 
-### Run
+### Play
 ```
 python run.py
 ```
