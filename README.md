@@ -41,4 +41,12 @@ Place all the files in same directory as the following:
 └─── run.py      main script to run the game
 ```
 
+### Run
+```
+python run.py
+```
 
+### Evaluate
+```
+python evaluate.py
+```
