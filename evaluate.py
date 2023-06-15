@@ -107,17 +107,17 @@ def evaluate_ai_players(evaluation_dir, num_games, player1_settings:MinimaxPlaye
 
 num_games = 100
 
-# player1 = MinimaxPlayerSettings("AI1", depth=1, heuristic="threats")
-# player2 = MinimaxPlayerSettings("AI2", depth=1, heuristic="defensive")
-# evaluate_ai_players("results/threats_vs_defensive", num_games, player1, player2)
+player1 = MinimaxPlayerSettings("AI1", depth=1, heuristic="threats")
+player2 = MinimaxPlayerSettings("AI2", depth=1, heuristic="defensive")
+evaluate_ai_players("results/threats_vs_defensive", num_games, player1, player2)
 
-# player1 = MinimaxPlayerSettings("AI1", depth=1, heuristic="threats")
-# player2 = MinimaxPlayerSettings("AI2", depth=1, heuristic="blocking_opponent")
-# evaluate_ai_players("results/threats_vs_blocking_opponent", num_games, player1, player2)
+player1 = MinimaxPlayerSettings("AI1", depth=1, heuristic="threats")
+player2 = MinimaxPlayerSettings("AI2", depth=1, heuristic="blocking_opponent")
+evaluate_ai_players("results/threats_vs_blocking_opponent", num_games, player1, player2)
 
-# player1 = MinimaxPlayerSettings("AI1", depth=1, heuristic="defensive")
-# player2 = MinimaxPlayerSettings("AI2", depth=1, heuristic="blocking_opponent")
-# evaluate_ai_players("results/defensive_vs_blocking_opponent", num_games, player1, player2)
+player1 = MinimaxPlayerSettings("AI1", depth=1, heuristic="defensive")
+player2 = MinimaxPlayerSettings("AI2", depth=1, heuristic="blocking_opponent")
+evaluate_ai_players("results/defensive_vs_blocking_opponent", num_games, player1, player2)
 
 player1 = MinimaxPlayerSettings("AI1", depth=1, heuristic="threats")
 player2 = MinimaxPlayerSettings("AI2", depth=1, heuristic="random")
