@@ -22,7 +22,7 @@ class Connect4App(ctk.CTk):
         self.title("Connect 4")
         self.configure(fg_color="#0332bf", font=FONT)
         self.player_name = "You"
-        self.ai_name = "AI"
+        self.ai_name = "MiniMax"
         self.depth = 1
         self.heuristic = "default"
         self.prompt_difficulty_level()
@@ -96,13 +96,13 @@ class Connect4App(ctk.CTk):
         """
         Creates the player indicators and color selection button.
         """
-        player1_txt = ctk.CTkLabel(self, text="   YOU", width=50, height=50, text_color="white", corner_radius=50, font=FONT)
+        player1_txt = ctk.CTkLabel(self, text="   You", width=50, height=50, text_color="white", corner_radius=50, font=FONT)
         player1_txt.grid(row=self.game.rows+1, column=2, padx=5, pady=5, sticky="sw")
             
         self.player1_indicator = ctk.CTkLabel(self, text="", width=25, height=25, text_color="white", fg_color=COLOR_PLAYER_1, corner_radius=50)
         self.player1_indicator.grid(row=self.game.rows+1, column=2, padx=5, pady=5, sticky="e")
             
-        player2_txt = ctk.CTkLabel(self, text="  AI", width=50, height=50, text_color="white", corner_radius=50, font=FONT)
+        player2_txt = ctk.CTkLabel(self, text="  MiniMax", width=50, height=50, text_color="white", corner_radius=50, font=FONT)
         player2_txt.grid(row=self.game.rows+1, column=4, padx=5, pady=5, sticky="sw")
         self.player2_indicator = ctk.CTkLabel(self, text="", width=25, height=25, text_color="#040a1c", fg_color=COLOR_PLAYER_2, corner_radius=50)
         self.player2_indicator.grid(row=self.game.rows+1, column=4, padx=5, pady=5, sticky="w")
