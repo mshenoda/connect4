@@ -3,7 +3,8 @@
 Connect 4 game with Minimax AI implementation provides an engaging and challenging gaming experience for users. The application can be used by educational institutions, parents, and companies as a tool for promoting logical thinking, strategic planning, and problem-solving skills. Additionally, it offers an opportunity for developers and researchers to study and improve upon the AI method used in the game.
 
 - First, the user selects the game difficulty level: Easy, Medium, Hard
-![image](images/select_difficulty.png)
+
+  ![image](images/select_difficulty.png)
 
 
 - Then choose player color: red or yellow:       
