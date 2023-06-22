@@ -3,19 +3,14 @@
 Connect 4 game with Minimax AI implementation provides an engaging and challenging gaming experience for users. The application can be used by educational institutions, parents, and companies as a tool for promoting logical thinking, strategic planning, and problem-solving skills. Additionally, it offers an opportunity for developers and researchers to study and improve upon the AI method used in the game.
 
 - First, the user selects the game difficulty level: Easy, Medium, Hard
-
-![image](https://github.com/mshenoda/connect4/assets/2038150/c69840b1-2a49-4776-b325-bd87ff57420e)
+![image](images/select_difficulty.png)
 
 
 - Then choose player color: red or yellow:       
-![image](https://github.com/mshenoda/connect4/assets/2038150/410c5a89-0e0a-4f6d-855d-c42efbc66b02)
-![image](https://github.com/mshenoda/connect4/assets/2038150/6ac24ed1-a586-4085-8b54-c1389bb9f6b3)
-
+![image](images/select_color.png)
 
 - Play:
-![image](https://github.com/mshenoda/connect4/assets/2038150/5215275f-4a3b-452f-afcc-7d66d79488ef)
-
-
+![image](images/play.png)
 
 ## Required Packages
 - CustomTkinter
